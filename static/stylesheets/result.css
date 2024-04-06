@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'gilroyextrabold';
+  src: url('./fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
+       url('./fonts/gilroy-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body            
+{ 
+  background-image: url('../stylesheets/home-bg.jpg');
+  font-family: 'gilroyextrabold';
+  text-transform: uppercase;
+}
+
+h1       
+{ 
+  color: #f3f5f7; 
+  margin-bottom: 25px; 
+  border-bottom: 2px solid #eee; 
+}
+
+.page {
+  margin: 3.5% 0 0 2.5%;
+}	
+
+.page img{
+  padding: 7px;
+}
